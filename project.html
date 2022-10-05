@@ -2,6 +2,7 @@
 <html lang="en">
 <!-- All of the meta data for the page belongs in the header tag -->
 <head>
+	<a class="skip-link" href='#main'>Skip to content</a>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="images/favicon.ico">
@@ -16,23 +17,33 @@
 			<ul>
 				<li class="active"><a href="index.html">Home</a></li>
 				<li class="active"><a href="internship.html">Internship Experience</a></li>
-				<li class="active"><a href="project.html">Project Experience</a></li>
+				<li class="current"><a href="project.html">Project Experience</a></li>
 				<li class="active"><a href="besides.html">Besides Work</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
+	<main id="main">
 		<h1>Projects</h1>
 		<h2>Intagram Clone</h2>
 		<p>
-			I did a project of cloning instagram. This website and do a lot of things.
+			Built an Instagram allowing users to create, read, update, delete posts, comments, likes, and followings. 
+			Executed Flask RESTful APIs to manage the database and resources. 
+			Wrote shell script to automate command line tasks like initialization, configuration, serving, and unit testing. 
+			Deployed and scaled the website with AWS EC2, S3.
 		</p>
+		<h2>A Scalable Search Engine</h2>
 		<p>
-			This project is so cool, man!
+			Established a scalable search engine with information retrieval based on both tf-idf and PageRank scores. 
+			Designed an effective MapReduce pipeline with Hadoop to generate inverted-indexes.
+		</p>
+		<h2>Top Universities Information Visualization Website</h2>
+		<p>
+			Helped an agent company develop a universities information visualization website for introducing information to customers.
+			The website has increased employee productivity by about 15% and increased the company's revenue by ¥325,000(about $52,000) in the first year.
 		</p>
 		<figure>
-			<img src="images/instagram.jpg" width="500" alt="Instagram"/>
+			<img class = "picture" src="images/instagram.jpg" alt="Instagram"/>
 			<figcaption>Instagram Clone</figcaption>
 		</figure>
 	</main>
