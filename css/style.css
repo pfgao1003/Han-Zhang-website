@@ -14,7 +14,7 @@ h1{
 
 a {
 	text-decoration: none;
-	font-size: x-large;
+	font-size: 80%;
 }
 
 /*Style the images*/
@@ -53,8 +53,8 @@ items in the nav section*/
 nav li{
 	padding:2%;
 	width:15%;
-	border:3%;
-	display: inline-block;
+	border:10%;
+	display: inline-table;
 	text-align: center;
 }
 
