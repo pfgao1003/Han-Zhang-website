@@ -12,53 +12,10 @@ h1{
 	font-weight: bold;
 }
 
-.active{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
-    font-weight: bold;
+a {
+	text-decoration: none;
+	font-size: large;
 }
-
-.picture{
-    position: relative;
-    border: auto;
-    margin: auto;
-    padding: 0;
-    width: auto;
-}
-
-.picture:hover{
-    position: relative;
-    border: 2px solid #0006CC;
-    margin: auto;
-    padding: 0;
-    width: auto;
-}
-
-
-.skip-link {
-background: #319795;
-color: #fff;
-font-weight: 700;
-left: 50%;
-padding: 4px;
-position: absolute;
-}
-
-.skip-link:focus {
-transform: translateY(0%);
-}
-
-.current{
-	background: white;
-    text-transform: uppercase;
-	text-align: center;
-}
-
-.active a{
-	text-decoration: none;;
-}
-
 /*Style the images*/
 img{
     height: 175px;
@@ -91,14 +48,76 @@ header, nav, main, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	background-color: #ECFF4D;
 	padding:10px;
-	width:25%;
+	width:15%;
 	border:1px solid black;
 	display: inline-block;
-	width: 20%;
+	text-align: center;
 }
 
+a {
+	background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+	color: black;
+}
+
+a:hover{
+	color: gray;
+}
+
+a:active {
+	color: yellow;
+}
+
+.active a {
+	background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+	color: pink;
+}
+
+.active a:hover{
+	color: gray;
+}
+
+.active a:active{
+	color: yellow;
+}
+
+.picture{
+    position: relative;
+    border: 2px;
+    margin: 10px;
+    padding: 0;
+    width: auto;
+}
+
+.picture:hover{
+    position: relative;
+    border: 2px solid pink;
+    margin: 10px;
+    padding: 0;
+    width: auto;
+}
+
+
+.skip-link {
+	background: white;
+	color: pink;
+	font-weight: 700;
+	padding: 5px;
+	position:absolute; 
+	right:5px; 
+	top:2px;
+}
+
+.skip-link:focus {
+	transform: translateY(0%);
+}
+
+
+
+
 /*Added this so the links stay the same color*/
-a:visited{color:#0000FF}
 
