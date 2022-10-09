@@ -1,1 +1,1 @@
-Built a personal website for Han Zhang.
+Built a Han Zhang's introduction website.
