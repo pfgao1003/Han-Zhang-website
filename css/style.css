@@ -8,7 +8,7 @@ body{
 
 /*Make the h1 heading bigger with a bold font*/
 h1{
-	font-size: 2em; 
+	font-size: 200%; 
 	font-weight: bold;
 }
 
@@ -16,10 +16,13 @@ a {
 	text-decoration: none;
 	font-size: x-large;
 }
+
 /*Style the images*/
 img{
-    height: 175px;
-	width:auto;
+    height: 100%;
+	width: 100;
+	max-width:300px;
+	max-height: 200px;
     border: 3px;
     padding: 25px;
     border-radius: 20px;
@@ -39,7 +42,7 @@ p, h1, h2 {
 
 /*Add borders around the main components and some
 space too*/
-header, nav, main, footer{
+header, nav, main, footer {
 	border: 3px;
 	margin: 20px 0;
 }
@@ -48,7 +51,7 @@ header, nav, main, footer{
 /*Change the styling for all of the list 
 items in the nav section*/
 nav li{
-	padding:10px;
+	padding:2%;
 	width:15%;
 	border:1px solid black;
 	display: inline-block;
@@ -60,6 +63,7 @@ a {
     text-transform: uppercase;
     font-weight: bold;
 	color: black;
+	font-size:60%;
 }
 
 a:hover{
@@ -87,8 +91,8 @@ a:active {
 
 .picture{
     position: relative;
-    border: 2px;
-    margin: 10px;
+    border: 1%;
+    margin: 2%;
     padding: 0;
     width: auto;
 }
@@ -105,6 +109,7 @@ a:active {
 .skip-link {
 	background: white;
 	color: rgb(162, 43, 41);
+	font-size: 60%;
 	font-weight: 700;
 	padding: 5px;
 	position:absolute; 
@@ -116,8 +121,4 @@ a:active {
 	transform: translateY(0%);
 }
 
-
-
-
-/*Added this so the links stay the same color*/
 
