@@ -91,8 +91,8 @@ a:active {
 
 .picture{
     position: relative;
-    border: 1%;
-    margin: 2%;
+    border: 2px;
+    margin: 10px;
     padding: 0;
     width: auto;
 }
