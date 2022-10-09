@@ -74,7 +74,7 @@ a:active {
 	background: white;
     text-transform: uppercase;
     font-weight: bold;
-	color: pink;
+	color: red;
 }
 
 .active a:hover{
@@ -104,7 +104,7 @@ a:active {
 
 .skip-link {
 	background: white;
-	color: pink;
+	color: red;
 	font-weight: 700;
 	padding: 5px;
 	position:absolute; 
