@@ -4,6 +4,11 @@ body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
+	font-family: 'Poppins', sans-serif;
+	background-image: url("../images/background.jpg");
+	background-color: #cccccc;
+	display: grid;
+	row-gap: 30px;
 }
 
 /*Make the h1 heading bigger with a bold font*/
@@ -29,6 +34,11 @@ img{
     margin: 10px;
 }
 
+aside {
+	display: grid;
+	grid-column: 1 / -1;
+	width: 100%;
+}
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 2em; 
@@ -45,6 +55,9 @@ space too*/
 header, nav, main, footer {
 	border: 3px;
 	margin: 20px 0;
+	display: grid;
+	grid-column: 1 / -1;
+	width: 100%;
 }
 
 
@@ -58,8 +71,11 @@ nav li{
 	text-align: center;
 }
 
+figcaption {
+	text-align: center;
+}
 a {
-	background: white;
+	background: none;
     text-transform: uppercase;
     font-weight: bold;
 	color: black;
@@ -75,7 +91,7 @@ a:active {
 }
 
 .active a {
-	background: white;
+	background: none;
     text-transform: uppercase;
     font-weight: bold;
 	color: rgb(162, 43, 41);
@@ -107,7 +123,7 @@ a:active {
 
 
 .skip-link {
-	background: white;
+	background: none;
 	color: rgb(162, 43, 41);
 	font-size: 70%;
 	font-weight: 700;
@@ -121,4 +137,52 @@ a:active {
 	transform: translateY(0%);
 }
 
+#mainpic {
+	animation: fadeIn 3s;
+}
 
+.gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #logo {
+        animation: none;
+    }
+}
+
+@media all and (min-width: 800px){
+	body {
+		display: grid;
+		grid-template-columns: 1fr 2fr 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	header {
+		grid-column: 1 / 2;
+	}
+	footer {
+		grid-column: 4 / -1;
+	}
+	aside {
+		grid-column: 3 / -1;
+	}
+	main {
+		grid-column: 1 / -1;
+	}
+	.gallery{
+        display: flex;
+		flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+}
