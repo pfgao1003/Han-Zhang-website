@@ -8,7 +8,7 @@ body{
 	background-image: url("../images/background.jpg");
 	display: grid;
 	row-gap: 30px;
-	line-height:40px;
+	line-height: 1.5;
 }
 
 /*Make the h1 heading bigger with a bold font*/
@@ -173,7 +173,7 @@ a:active {
 		grid-template-columns: 1fr 2fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
-	#main {
+	.mainhome {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
@@ -197,6 +197,6 @@ a:active {
         display: flex;
 		flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }    
 }
