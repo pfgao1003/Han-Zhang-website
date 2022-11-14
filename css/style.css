@@ -94,7 +94,7 @@ a:active {
 	background: none;
     text-transform: uppercase;
     font-weight: bold;
-	color: rgb(120, 43, 41);
+	color: rgb(80, 43, 41);
 }
 
 .active a:hover{
@@ -129,7 +129,7 @@ a:active {
 
 .skip-link {
 	background: none;
-	color: rgb(120, 43, 41);
+	color: rgb(80, 43, 41);
 	font-size: 70%;
 	font-weight: 700;
 	padding: 5px;
