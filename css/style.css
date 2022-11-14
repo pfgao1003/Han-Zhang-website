@@ -8,6 +8,7 @@ body{
 	background-image: url("../images/background.jpg");
 	display: grid;
 	row-gap: 30px;
+	line-height:40px;
 }
 
 /*Make the h1 heading bigger with a bold font*/
@@ -38,6 +39,7 @@ aside {
 	grid-column: 1 / -1;
 	width: 100%;
 }
+
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 2em; 
@@ -160,7 +162,7 @@ a:active {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    #logo {
+    #mainpic {
         animation: none;
     }
 }
@@ -171,6 +173,10 @@ a:active {
 		grid-template-columns: 1fr 2fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
+	#main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	header {
 		grid-column: 1 / -1;
 	}
@@ -178,8 +184,11 @@ a:active {
 		grid-column: 3 / -1;
 		text-align: right;
 	}
+	.intro {
+		grid-column: 1 / 2;
+	}
 	aside {
-		grid-column: 3 / -1;
+		grid-column: 2 / 3;
 	}
 	main {
 		grid-column: 1 / -1;
