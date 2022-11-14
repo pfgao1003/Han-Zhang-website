@@ -25,7 +25,7 @@ a {
 /*Style the images*/
 img{
     height: 100%;
-	width: 100;
+	width: 100%;
 	max-width:300px;
 	max-height: 200px;
     border: 3px;
@@ -66,7 +66,7 @@ items in the nav section*/
 nav li{
 	padding:2%;
 	width:15%;
-	border:10%;
+	border:2px;
 	display: inline-table;
 	text-align: center;
 }
@@ -94,7 +94,7 @@ a:active {
 	background: none;
     text-transform: uppercase;
     font-weight: bold;
-	color: rgb(162, 43, 41);
+	color: rgb(120, 43, 41);
 }
 
 .active a:hover{
@@ -108,23 +108,28 @@ a:active {
 .picture{
     position: relative;
     border: 2px;
-    margin: 10px;
-    padding: 0;
-    width: auto;
+    padding: 2px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
 .picture:hover{
     position: relative;
     border: 2px solid pink;
     margin: 10px;
-    padding: 0;
-    width: auto;
+    padding: 2px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
 
 .skip-link {
 	background: none;
-	color: rgb(162, 43, 41);
+	color: rgb(120, 43, 41);
 	font-size: 70%;
 	font-weight: 700;
 	padding: 5px;
