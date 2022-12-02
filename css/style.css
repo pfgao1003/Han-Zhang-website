@@ -66,7 +66,7 @@ header, nav, main, footer {
 items in the nav section*/
 nav li{
 	padding:2%;
-	width:15%;
+	width:10%;
 	border:2px;
 	display: inline-table;
 	text-align: center;
@@ -92,9 +92,9 @@ a:active {
 }
 
 .active a {
+	text-decoration: underline;
 	background: none;
     text-transform: uppercase;
-    font-weight: bold;
 	color: rgb(80, 43, 41);
 }
 
