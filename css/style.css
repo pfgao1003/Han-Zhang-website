@@ -456,15 +456,15 @@ button{
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
-	.period1 {
+	.period1, #smile1 {
 		grid-column: 1 / span 1;
 		grid-row: 1;
 	}
-	.period2 {
+	.period2, #smile2 {
 		grid-column: 2 / span 1;
 		grid-row: 1;
 	}
-	.period3 {
+	.period3, #smile3 {
 		grid-column: 3 / span 1;
 		grid-row: 1;
 	}
