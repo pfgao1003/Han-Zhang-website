@@ -12,20 +12,19 @@
 </head>
 
 <body>
+	<a class="skip-link" href='#main'>Skip to content</a>
+	<nav>
+		<ul>
+			<li id="nav1"><a href="index.html">Home</a></li>
+			<li id="nav2"><a href="career.html">Career</a></li>
+			<li id="nav3"><a href="series.html">Series</a></li>
+			<li class="active" id="nav4"><a href="photos.html">Photos</a></li>
+		</ul>
+	</nav>
 	<header>
-		<a class="skip-link" href='#main'>Skip to content</a>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="career.html">Career</a></li>
-				<li><a href="series.html">Series</a></li>
-				<li class="active"><a href="photos.html">Photos</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main id="main">
 		<h1>Han</h1>
+	</header>
+	<main id="main">
 		<p>
 			Hans Zhang Han (born 6 October 1984) is a Chinese actor, singer and host. When Zhang was in his sophomore year, he played roles in television advertisements and movies. 
 			Because he often attended public events, Zhang began to pay attention to his fashion style. 
@@ -75,6 +74,23 @@
 				<figcaption>Han (in Traditional Cloth)</figcaption>
 			</figure>
 		</div>
+		<!-- modify this form HTML and place wherever you want your form -->
+		<h1>Contact</h1>
+		<form
+		action="https://formspree.io/f/mzbwkywz"
+		method="POST"
+		>
+		<label>
+		Your email:
+		<input type="email" name="email">
+		</label>
+		<label>
+		Your message:
+		<input name="message"></input>
+		</label>
+		<!-- your other form fields go here -->
+		<button type="submit">Send</button>
+		</form>
 	</main>
 
 	<footer>
