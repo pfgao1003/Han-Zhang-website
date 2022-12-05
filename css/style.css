@@ -423,7 +423,8 @@ button{
 		grid-column: 2 / 3;
 		grid-row: 1 / 2;
 		background-color: aliceblue;
-		border: 2px solid #022b6d;
+		border: 2px solid #698abe;
+		align-self: center;
 	}
 	header {
 		text-align: left;
