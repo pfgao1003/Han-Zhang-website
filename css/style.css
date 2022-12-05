@@ -447,9 +447,9 @@ button{
 	}
 	.gallery{
         display: flex;
-		flex-direction: row;
         flex-wrap: wrap-reverse;
         justify-content:center;
+		align-content: center;
     }
 	.career {
 		display: grid;
