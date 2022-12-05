@@ -189,6 +189,10 @@ a:active {
 	mask-image: radial-gradient(circle, black 40%, transparent 50%);
 }
 
+label {
+	color: #022b6d;
+}
+
 .gallery {
 	display: flex;
 	flex-direction: column;
