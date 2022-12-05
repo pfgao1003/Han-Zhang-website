@@ -425,7 +425,7 @@ button{
 	nav {
 		grid-column: 2 / 3;
 		grid-row: 1 / 2;
-		background-color: rgb(208, 224, 255);
+		background-color: aliceblue;
 		border: 2px solid #022b6d;
 	}
 	header {
