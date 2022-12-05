@@ -325,19 +325,19 @@ button{
 		grid-row: 3 / span 1;
 	}
 	#smile1 {
-		font-size:4em;
+		font-size:3em;
 		grid-column: 3 / 4;
 		grid-row: 1 / span 1;
 		align-self: center;
 	}
 	#smile2 {
-		font-size:6em;
+		font-size:5em;
 		grid-column: 1 / 2;
 		grid-row: 2 / span 1;
 		align-self: center;
 	}
 	#smile3 {
-		font-size:8em;
+		font-size:7em;
 		grid-column: 3 / 4;
 		grid-row: 3 / span 1;
 		align-self: center;
