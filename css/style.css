@@ -166,7 +166,7 @@ a:active {
 	top: -40px;
 	-webkit-transition: top 1s ease-out;
 	transition: top 1s ease-out;
-	position: relative;
+	position: absolute;
 	font-size: medium;
 }
 .skip-link:focus {
